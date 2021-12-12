@@ -21,6 +21,7 @@ module.exports = defineConfig({
   plugins: [
     dts({
       include: ["./"],
+      exclude: ["./node_modules/**", "vite-env.d.ts"],
     }),
   ],
 });
