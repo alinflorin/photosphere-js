@@ -1,0 +1,27 @@
+{
+  "name": "photosphere-js",
+  "version": "1.0.0",
+  "description": "A library for shooting 360 panoramas",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alinflorin/photosphere-js.git"
+  },
+  "keywords": [
+    "photosphere",
+    "js",
+    "360",
+    "panorama"
+  ],
+  "author": "Alin-Florin Ciu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alinflorin/photosphere-js/issues"
+  },
+  "homepage": "https://github.com/alinflorin/photosphere-js#readme",
+  "devDependencies": {
+    "@vercel/ncc": "^0.33.0",
+    "typescript": "^4.5.3"
+  }
+}
