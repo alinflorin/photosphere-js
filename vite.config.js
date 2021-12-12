@@ -8,8 +8,8 @@ module.exports = defineConfig({
     lib: {
       entry: path.resolve(__dirname, "index.ts"),
       name: "photosphere-js",
-      fileName: (format) => `photosphere-js.${format}.js`,
-      formats: ["es", "cjs", "umd"],
+      fileName: (format) => `index.js`,
+      formats: ["es"],
     },
 
     rollupOptions: {
