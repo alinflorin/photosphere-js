@@ -1,34 +1,13 @@
 {
   "name": "photosphere-js",
   "version": "1.0.0",
-  "description": "A library for shooting 360 panoramas",
-  "source": "src/index.ts",
-  "main": "dist/main.js",
-  "types": "dist/types.d.ts",
   "scripts": {
-    "build-watch": "parcel watch",
-    "build": "parcel build",
-    "start": "parcel example/index.html"
+    "start": "vite --host",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alinflorin/photosphere-js.git"
-  },
-  "keywords": [
-    "photosphere",
-    "js",
-    "360",
-    "panorama"
-  ],
-  "author": "Alin-Florin Ciu",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/alinflorin/photosphere-js/issues"
-  },
-  "homepage": "https://github.com/alinflorin/photosphere-js#readme",
   "devDependencies": {
-    "@parcel/packager-ts": "^2.0.1",
-    "@parcel/transformer-typescript-types": "^2.0.1",
-    "parcel": "^2.0.1"
+    "typescript": "^4.4.4",
+    "vite": "^2.7.1"
   }
 }
