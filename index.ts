@@ -170,8 +170,8 @@ export class PhotosphereJs {
             throw new Error('Camera is not supported');
         }
         const constraints: MediaStreamConstraints = {
-            video: true,
-            audio: false
+            video: { width: 4096, height: 2160 },
+            audio: false,
         };
         this.cameraStream = await navigator.mediaDevices.getUserMedia({ ...this.options.cameraConstraints, ...constraints });
         if (!this.cameraStream) {
