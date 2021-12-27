@@ -6,7 +6,7 @@ window.addEventListener('load', async () => {
     try {
         await instance.init();
     } catch (err) {
-        alert(JSON.stringify(err));
+        alert(err);
     }
 });
 
