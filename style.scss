@@ -14,3 +14,16 @@ body {
   height: 100%;
   position: relative;
 }
+
+#log {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40vw;
+  height: 20vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  font-size: 8px;
+  z-index: 999;
+  overflow: auto;
+}
